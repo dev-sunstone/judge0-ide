@@ -1,4 +1,4 @@
-var defaultUrl = localStorageGetItem("api-url") || "https://test-admission.sunstone.in";
+var defaultUrl = localStorageGetItem("api-url") || "https://test-admission.sunstone.in/judge";
 var apiUrl = defaultUrl;
 var wait = localStorageGetItem("wait") || true;
 var check_timeout = 300;
